@@ -194,6 +194,11 @@ describe('sorting the list of users', function() {
   /**
    * Unit Testing AngularJS Controller
    */
+  describe('AngularJS Controller', function(){
+      
+  })
+
+
   describe('PasswordController', function() {
     beforeEach(module('app'));
   

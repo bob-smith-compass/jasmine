@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "start": "http-server ./app -a localhost -p 8080 -c-1",
+    "ktest": "karma start karma.conf.js"
   },
   "keywords": [],
   "author": "",
