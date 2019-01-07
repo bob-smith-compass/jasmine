@@ -180,8 +180,8 @@ describe("A spec", function() {
 describe('sorting the list of users', function() {
     beforeEach(function(){
         console.log('Before Each');
-        this.sortUsers = function(){
-
+        this.sortUsers = function(input){
+            return input.sort()
         }
     })
     it('sorts in descending order by default', function() {
